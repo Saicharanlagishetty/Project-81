@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { Text, View } from 'react-native';
 
-export default class Feed extends Component {
+export default class CreatePost extends Component {
     render() {
         return (
             <View
@@ -10,7 +10,7 @@ export default class Feed extends Component {
                     justifyContent: "center",
                     alignItems: "center"
                 }}>
-                <Text>Feeds</Text>
+                <Text>Create Post</Text>
             </View>
         )
     }
